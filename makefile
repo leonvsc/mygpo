@@ -34,7 +34,7 @@ clean:
 	git clean -fX
 
 install-deps:
-	apt-get install libpq-dev libjpeg-dev zlib1g-dev libwebp-dev \
+	apt-get install -y libpq-dev libjpeg-dev zlib1g-dev libwebp-dev \
 		build-essential python3-dev virtualenv libffi-dev redis postgresql \
 		gettext
 
